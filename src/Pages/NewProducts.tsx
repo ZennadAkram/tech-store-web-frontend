@@ -64,9 +64,9 @@ export default function NewProducts() {
       }
     };
          FetchLaptops("Laptops");
-    FetchConsoles("Laptops");
+    FetchConsoles("Consoles");
     FetchPhones("Phones");
-    FetchDesktop("Phones");
+    FetchDesktop("Desktops");
     testFetch();
   }, []);
 
@@ -107,7 +107,7 @@ export default function NewProducts() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col px-3 items-center justify-start gap-4 lg:px-32">
+      <div className="flex flex-col px-3 items-center justify-start gap-4 lg:px-28">
         <AddPanel />
         {/* new products section*/}
         <div className="flex flex-col justify-start items-center gap-4 w-full">
@@ -163,7 +163,7 @@ export default function NewProducts() {
         </div>
          <div className="hidden md:pl-4 md:pt-4 md:block self-start">
     <ChoiceBars
-      choices={["Laptops", "Desktops", "Tablets", "Phones"]}
+      choices={["MSI", "HP", "Apple", "Costume"]}
        onChoiceSelect={(choice) =>FetchDesktop(choice)}
     />
   </div>
@@ -179,14 +179,14 @@ export default function NewProducts() {
             <button onClick={goToProduct} className="absolute left-1/2 -translate-x-1/2 md:top-72  top-20 border-b hover:text-gray-400 hover:border-b-gray-400 leading-5 text-white" >See All Products</button>
             </div>
              <div className=" md:hidden">
-    <ChoiceBars onChoiceSelect={(choice) =>FetchDesktop(choice)} choices={["MSI GS Series", "MSI GT Series", "MSI GF Series", "MSI GR Series"]} />
+    <ChoiceBars onChoiceSelect={(choice) =>FetchDesktop(choice)} choices={["MSI", "HP", "Apple", "Costume"]} />
   </div>
             <ProductGrid   products={desktops} slice={2} slicelg={5} slicemd={3}/>
         </div>
         <div className="hidden md:pl-4 md:pt-4 md:block self-start">
     <ChoiceBars
     onChoiceSelect={(choice) =>FetchDesktop(choice)}
-      choices={["MSI GS Series", "MSI GT Series", "MSI GF Series", "MSI GR Series"]}
+      choices={["ASUS", "HP", "MSI", "Lenovo"]}
     />
   </div>
         <div className=" flex flex-col md:flex-row justify-start w-full">
@@ -199,14 +199,14 @@ export default function NewProducts() {
             <button onClick={goToProduct}  className="absolute left-1/2 -translate-x-1/2 md:top-72  top-20 border-b hover:text-gray-400 hover:border-b-gray-400 leading-5 text-white" >See All Products</button>
             </div>
              <div className=" md:hidden">
-    <ChoiceBars onChoiceSelect={(choice) =>FetchDesktop(choice)} choices={["MSI GS Series", "MSI GT Series", "MSI GF Series", "MSI GR Series"]} />
+    <ChoiceBars onChoiceSelect={(choice) =>FetchDesktop(choice)} choices={["ASUS", "HP", "MSI", "Lenovo"]} />
   </div>
             <ProductGrid  products={laptops} slice={2} slicelg={5} slicemd={3}/>
         </div>
         <div className="hidden md:pl-4 md:pt-4 md:block self-start">
     <ChoiceBars
       onChoiceSelect={(choice) =>FetchPhones(choice)}
-      choices={["MSI GS Series", "MSI GT Series", "MSI GF Series", "MSI GR Series"]}
+      choices={["Samsung", "Apple", "Xiaomi", "Oppo"]}
     />
   </div>
         <div className=" flex flex-col md:flex-row  justify-start w-full">
@@ -221,14 +221,14 @@ export default function NewProducts() {
              <div className=" md:hidden">
     <ChoiceBars 
     onChoiceSelect={(choice) =>FetchPhones(choice)}
-    choices={["MSI GS Series", "MSI GT Series", "MSI GF Series", "MSI GR Series"]} />
+    choices={["PlayStation", "Xbox", "Nintendo", "Other"]} />
   </div>
             <ProductGrid  products={phones} slice={2} slicelg={5} slicemd={3}/>
         </div>
         <div className="hidden md:pl-4 md:pt-4 md:block self-start">
     <ChoiceBars
     onChoiceSelect={(choice) =>FetchConsoles(choice)}
-      choices={["MSI GS Series", "MSI GT Series", "MSI GF Series", "MSI GR Series"]}
+      choices={["PlayStation", "Xbox", "Nintendo", "Other"]}
     />
   </div>
         <div className=" flex flex-col md:flex-row justify-start w-full">
@@ -247,7 +247,7 @@ export default function NewProducts() {
   </div>
             <ProductGrid  products={consoles} slice={2} slicelg={5} slicemd={3}/>
         </div>
-        <div className="w-full  mt-[-17px] -mb-10"> <Brandbar /></div>
+        <div className="w-full  mt-[-17px] "> <Brandbar /></div>
        
       </div>
       

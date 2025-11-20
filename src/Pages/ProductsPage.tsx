@@ -233,7 +233,7 @@ export function ProductsPage() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col w-full gap-4 lg:px-28">
+      <div className="flex flex-col w-full gap-4 lg:px-20">
         <div className="hidden md:block md:w-full">
           <img className="w-full md:h-28" src="/images/asus-poster.png" alt="asus-poster" />
         </div>
@@ -241,7 +241,9 @@ export function ProductsPage() {
           <h1 className="text-2xl font-bold px-3 pt-5">All Products</h1>
         </div>
         <div className="md:flex md:flex-row w-full md:p-3">
-          <div className={`hidden bg-white md:flex md:flex-col gap-2 sticky top-0 h-[100vh] overflow-y-auto ${horizenal === false ? "w-[250px]" : "w-1/2 lg:w-[30%] "}`}>
+
+
+          <div className={`hidden bg-white md:flex md:flex-col gap-2 sticky top-0 h-[100vh] overflow-y-auto ${horizenal === false ? "w-[250px]" : "w-1/2 lg:w-full "}`}>
             <div className="hidden mt-3 md:flex md:flex-col items-center gap-3 p-5 md:bg-[#F5F7FF] md:w-full">
               <h2 className="font-bold text-lg">Filters</h2>
               <button 

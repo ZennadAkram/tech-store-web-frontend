@@ -122,8 +122,7 @@ export function Checkout(){
             <div className="hidden md:flex flex-row justify-between items-center">
               <div className="flex flex-col md:gap-11 lg:flex-row gap-4"> 
                 <h1 className="font-bold text-3xl">Checkout</h1>
-            <button className="border-[3px] hover:bg-[#a3b7e0] w-[147px] h-[38px] text-[#0156FF] font-semibold  border-[#0156FF] rounded-3xl">Sign In</button>
-            </div>
+                        </div>
             <div className="hidden  md:flex flex-row">
               <Progresscontainer text="1" progress={true} desc="Shipping"/>
               <Progresscontainer text="2" progress={false} desc="Review & Payments"/>

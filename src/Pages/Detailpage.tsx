@@ -361,6 +361,7 @@ font-bold text-[22px]">{product?.name}</h1>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-4 w-4 cursor-pointer text-[#0156FF]">
         <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
       </svg>
+      
     </div>
 
     <div className="bg-white w-[270px] md:w-[347px] h-10 flex justify-between px-3 items-center border border-gray-200">
@@ -380,7 +381,7 @@ font-bold text-[22px]">{product?.name}</h1>
 
   <div className="w-screen md:w-[656px] h-[300px] bg-[#F5F7FF] relative overflow-hidden">
     <img
-      src="public/images/support.png"
+      src="/images/support.png"
       alt="support"
       className="w-full h-full object-cover mix-blend-multiply"
     />

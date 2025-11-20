@@ -121,7 +121,7 @@ export default function Productcard({
     addtocartproduct(data);
     fetchCart();
   }
-}} className={` ${hovered? "flex flex-row items-center justify-center gap-2 py-2 px-6 border-[2.1px] hover:bg-[#b7c9ee] border-[#0156FF] rounded-3xl"
+}} className={` ${hovered? "flex flex-row items-center justify-center gap-2 py-2 px-6 border-[2.1px] hover:bg-[#b7c9ee] border-[#0156FF] rounded-3xl "
         : "hidden"
         }`}>
           <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">

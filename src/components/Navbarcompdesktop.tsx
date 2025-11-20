@@ -1,4 +1,4 @@
-import {fetchListProducts,fetchfilterbrand,fetchfiltercategory} from "../API/ProductsAPI"
+import {fetchfiltercategory} from "../API/ProductsAPI"
 import Productcard from "../components/Productcard"
 import type { ProductList } from "../types/ProductsList";
 
@@ -55,9 +55,8 @@ export function Navbardesk(){
           imageUrl={product.poster_image ?? undefined}
           starting_price={Number(product.starting_price)}
           description={product.description}
-          review_avg={4 ?? undefined}
-          review_number={5}
-        />
+          review_avg={4}
+          review_number={5} id={product.id}        />
       </li>
     );
   })}

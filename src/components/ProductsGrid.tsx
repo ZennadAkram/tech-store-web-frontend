@@ -27,7 +27,7 @@ useEffect(() => {
     return () => window.removeEventListener("resize", updateNums);
   }, [slicelg, slicemd, slice]);
 return (
-    <div className="flex flex-row justify-between ">
+    <div className="flex flex-row justify-start  ">
         {products.slice(0, numslice).map((product) => (
             <Productcard 
             
@@ -36,8 +36,7 @@ return (
             imageUrl={product.poster_image ?? undefined}
             review_avg={product.average_rating ?? 0}
             review_number={product.review_count}
-            key={product.id}
-            
+            key={product.id} id={product.id}            
             />
         ))}
     </div>

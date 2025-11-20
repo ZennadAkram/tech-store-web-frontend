@@ -40,7 +40,7 @@ export default function LoginPage() {
      
       <Navbar/>
       {/* Main body */}
-      <div className="md:px-[6%] pt-16 flex flex-col gap-4 px-[6%]  ">
+      <div className="md:px-[6%] pt-16 pb-16 flex flex-col gap-4 px-[6%]  ">
         <h1 className="text-2xl font-bold ">Customer Login</h1>
         {/* Login form */}
         <div className="flex flex-col gap-3 justify-start md:flex md:flex-row md:gap-10   ">
