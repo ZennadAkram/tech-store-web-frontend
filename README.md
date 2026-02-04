@@ -14,7 +14,7 @@ A modern, feature-rich e-commerce platform frontend built with React, featuring 
 - **Smart Product Discovery** - Advanced filtering, search, and sorting capabilities
 - **Frictionless Checkout** - Streamlined cart management and order processing
 - **Personalized Experience** - User profiles, order history, and tailored recommendations
-- **Real-time Updates** - Dynamic cart, order tracking, and notifications
+- **Real-time Updates** - Dynamic cart, order tracking
 
 ---
 
@@ -23,10 +23,8 @@ A modern, feature-rich e-commerce platform frontend built with React, featuring 
 ### Frontend
 - **Framework:** React 18+ with TypeScript
 - **Routing:** React Router DOM v6
-- **State Management:** TanStack Query (React Query) for server state
 - **HTTP Client:** Axios with interceptors
 - **UI Components:** Tailwind CSS + Headless UI
-- **Notifications:** React Toastify
 - **Icons:** React Icons
 
 ### Integration
@@ -85,7 +83,7 @@ A modern, feature-rich e-commerce platform frontend built with React, featuring 
 ```bash
 # Clone repository
 git clone https://github.com/ZennadAkram/tech-store-web-frontend.git
-cd ecommerce-frontend
+cd tech-store-web-frontend
 
 # Install dependencies
 npm install
