@@ -70,8 +70,6 @@ A modern, feature-rich e-commerce platform frontend built with React, featuring 
 
 ---
 
----
-
 ## 🚦 Getting Started
 
 ### Prerequisites
