@@ -70,6 +70,50 @@ A modern, feature-rich e-commerce platform frontend built with React, featuring 
 
 ---
 
+## Screenshots
+
+### 🏠 Home Page
+| Mobile | Desktop |
+|--------|---------|
+| <img src="public/images/screenshots/imag4.jpg" width="220" /> | <img src="public/images/screenshots/tech-store-new.png" width="420" /> |
+
+---
+
+### 🛍️ Products Page (Responsive)
+| Mobile (Pixel 7) | Tablet | Desktop |
+|------------------|--------|---------|
+| <img src="public/images/screenshots/localhost_5173_products_(Pixel 7).png" width="220" /> | <img src="public/images/screenshots/localhost_5173_products_ (1).png" width="280" /> | <img src="public/images/screenshots/localhost_5173_products_.png" width="420" /> |
+
+---
+
+### 🆕 New Products
+| Mobile | Desktop |
+|--------|---------|
+| <img src="public/images/screenshots/localhost_5173_newproducts_(Pixel 7).png" width="220" /> | <img src="public/images/screenshots/localhost_5173_newproducts_.png" width="420" /> |
+
+---
+
+### 🛒 Cart Page (Responsive)
+| Mobile (Pixel 7) | Tablet | Desktop |
+|------------------|--------|---------|
+| <img src="public/images/screenshots/localhost_5173_Cart_(Pixel 7).png" width="220" /> | <img src="public/images/screenshots/localhost_5173_Cart_ (1).png" width="280" /> | <img src="public/images/screenshots/localhost_5173_Cart_.png" width="420" /> |
+
+---
+
+### 💳 Checkout Page (Responsive)
+| Mobile (Pixel 7) | Tablet | Desktop |
+|------------------|--------|---------|
+| <img src="public/images/screenshots/localhost_5173_Checkout_(Pixel 7).png" width="220" /> | <img src="public/images/screenshots/localhost_5173_Checkout_ (1).png" width="280" /> | <img src="public/images/screenshots/localhost_5173_Checkout_.png" width="420" /> |
+
+---
+
+### 🔐 Login
+| Mobile (iPhone 12 Pro) |
+|------------------------|
+| <img src="public/images/screenshots/localhost_5173_login(iPhone 12 Pro).png" width="220" /> |
+
+---
+
 ## 🚦 Getting Started
 
 ### Prerequisites
