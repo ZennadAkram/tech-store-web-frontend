@@ -82,7 +82,7 @@ A modern, feature-rich e-commerce platform frontend built with React, featuring 
 ### 🛍️ Products Page (Responsive)
 | Mobile (Pixel 7) | Tablet | Desktop |
 |------------------|--------|---------|
-| <img src="public/images/screenshots/localhost_5173_products_(Pixel 7).png" height="460" width="30%" /> | <img src="public/images/screenshots/localhost_5173_products_ (1).png" height="460" width="30%" /> | <img src="public/images/screenshots/localhost_5173_products_.png" height="460" width="30%" /> |
+| <img src="public/images/screenshots/localhost_5173_products_(Pixel 7).png" height="460"  /> | <img src="public/images/screenshots/localhost_5173_products_ (1).png" height="460"  /> | <img src="public/images/screenshots/localhost_5173_products_.png" height="460" /> |
 
 ---
 
