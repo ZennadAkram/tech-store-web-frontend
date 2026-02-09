@@ -82,35 +82,35 @@ A modern, feature-rich e-commerce platform frontend built with React, featuring 
 ### 🛍️ Products Page (Responsive)
 | Mobile (Pixel 7) | Tablet | Desktop |
 |------------------|--------|---------|
-| <img src="public/images/screenshots/localhost_5173_products_(Pixel 7).png" height="420" /> | <img src="public/images/screenshots/localhost_5173_products_ (1).png" height="420" /> | <img src="public/images/screenshots/localhost_5173_products_.png" height="420" /> |
+| <img src="public/images/screenshots/localhost_5173_products_(Pixel 7).png" height="460" /> | <img src="public/images/screenshots/localhost_5173_products_ (1).png" height="460" /> | <img src="public/images/screenshots/localhost_5173_products_.png" height="460" /> |
 
 ---
 
 ### 🆕 New Products
 | Mobile | Desktop |
 |--------|---------|
-| <img src="public/images/screenshots/localhost_5173_newproducts_(Pixel 7).png" height="420" /> | <img src="public/images/screenshots/localhost_5173_newproducts_.png" height="420" /> |
+| <img src="public/images/screenshots/localhost_5173_newproducts_(Pixel 7).png" height="460" /> | <img src="public/images/screenshots/localhost_5173_newproducts_.png" height="460" /> |
 
 ---
 
 ### 🛒 Cart Page (Responsive)
 | Mobile (Pixel 7) | Tablet | Desktop |
 |------------------|--------|---------|
-| <img src="public/images/screenshots/localhost_5173_Cart_(Pixel 7).png" height="420" /> | <img src="public/images/screenshots/localhost_5173_Cart_ (1).png" height="420" /> | <img src="public/images/screenshots/localhost_5173_Cart_.png" height="420" /> |
+| <img src="public/images/screenshots/localhost_5173_Cart_(Pixel 7).png" height="460" /> | <img src="public/images/screenshots/localhost_5173_Cart_ (1).png" height="460" /> | <img src="public/images/screenshots/localhost_5173_Cart_.png" height="460" /> |
 
 ---
 
 ### 💳 Checkout Page (Responsive)
 | Mobile (Pixel 7) | Tablet | Desktop |
 |------------------|--------|---------|
-| <img src="public/images/screenshots/localhost_5173_Checkout_(Pixel 7).png" height="420" /> | <img src="public/images/screenshots/localhost_5173_Checkout_ (1).png" height="420" /> | <img src="public/images/screenshots/localhost_5173_Checkout_.png" height="420" /> |
+| <img src="public/images/screenshots/localhost_5173_Checkout_(Pixel 7).png" height="460" /> | <img src="public/images/screenshots/localhost_5173_Checkout_ (1).png" height="460" /> | <img src="public/images/screenshots/localhost_5173_Checkout_.png" height="460" /> |
 
 ---
 
 ### 🔐 Login
 | Mobile (iPhone 12 Pro) |
 |------------------------|
-| <img src="public/images/screenshots/localhost_5173_login(iPhone 12 Pro).png" height="380" /> |
+| <img src="public/images/screenshots/localhost_5173_login(iPhone 12 Pro).png" height="460" /> |
 
 ---
 
